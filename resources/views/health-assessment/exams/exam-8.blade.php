@@ -10,6 +10,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="visual_deterioration_sides[]"
           id="visualDeteriorationRight"
           value="right"
         />
@@ -21,6 +22,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="visual_deterioration_sides[]"
           id="visualDeteriorationLeft"
           value="left"
         />
@@ -32,6 +34,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="visual_deterioration_sides[]"
           id="visualDeteriorationNeither"
           value="neither"
         />
@@ -46,6 +49,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="visual_loss_sides[]"
           id="visualLossRight"
           value="right"
         />
@@ -57,6 +61,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="visual_loss_sides[]"
           id="visualLossLeft"
           value="left"
         />
@@ -68,6 +73,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="visual_loss_sides[]"
           id="visualLossNeither"
           value="neither"
         />
@@ -82,6 +88,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="something_in_eye_sides[]"
           id="somethingInEyeRight"
           value="right"
         />
@@ -93,6 +100,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="something_in_eye_sides[]"
           id="somethingInEyeLeft"
           value="left"
         />
@@ -104,6 +112,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="something_in_eye_sides[]"
           id="somethingInEyeNeither"
           value="neither"
         />
@@ -118,6 +127,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="itchy_eye_sides[]"
           id="itchyEyeRight"
           value="right"
         />
@@ -129,6 +139,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="itchy_eye_sides[]"
           id="itchyEyeLeft"
           value="left"
         />
@@ -138,6 +149,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="itchy_eye_sides[]"
           id="itchyEyeNeither"
           value="neither"
         />
@@ -154,6 +166,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="red_eye_sides[]"
           id="redEyeRight"
           value="right"
         />
@@ -163,6 +176,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="red_eye_sides[]"
           id="redEyeLeft"
           value="left"
         />
@@ -172,6 +186,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="red_eye_sides[]"
           id="redEyeNeither"
           value="neither"
         />
@@ -186,6 +201,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="sore_eye_sides[]"
           id="soreEyeRight"
           value="right"
         />
@@ -195,6 +211,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="sore_eye_sides[]"
           id="soreEyeLeft"
           value="left"
         />
@@ -204,6 +221,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="sore_eye_sides[]"
           id="soreEyeNeither"
           value="neither"
         />
@@ -218,6 +236,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="watering_eye_sides[]"
           id="wateringEyeRight"
           value="right"
         />
@@ -229,6 +248,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="watering_eye_sides[]"
           id="wateringEyeLeft"
           value="left"
         />
@@ -240,6 +260,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="watering_eye_sides[]"
           id="wateringEyeNeither"
           value="neither"
         />
@@ -254,6 +275,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="eye_discharge_sides[]"
           id="eyeDischargeRight"
           value="right"
         />
@@ -265,6 +287,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="eye_discharge_sides[]"
           id="eyeDischargeLeft"
           value="left"
         />
@@ -276,6 +299,7 @@
         <input
           class="form-check-input"
           type="checkbox"
+          name="eye_discharge_sides[]"
           id="eyeDischargeNeither"
           value="neither"
         />

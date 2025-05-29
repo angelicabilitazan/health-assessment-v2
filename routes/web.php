@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/assessment','MainController@displayAssessment')->name('assess');
+Route::get('/listahan','MainController@displayListahan')->name('listahan');
+Route::post('/bwehehe','MainController@addData')->name('seeend');

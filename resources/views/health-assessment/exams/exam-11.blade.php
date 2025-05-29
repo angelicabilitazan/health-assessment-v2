@@ -609,7 +609,7 @@
           class="form-check-input"
           type="checkbox"
           id="fornicealTendernessRight"
-          name="fornicealTenderness"
+          name="fornicealTenderness[]"
           value="right"
         />
         <label class="form-check-label" for="fornicealTendernessRight"
@@ -621,7 +621,7 @@
           class="form-check-input"
           type="checkbox"
           id="fornicealTendernessLeft"
-          name="fornicealTenderness"
+          name="fornicealTenderness[]"
           value="left"
         />
         <label class="form-check-label" for="fornicealTendernessLeft"
@@ -633,7 +633,7 @@
           class="form-check-input"
           type="checkbox"
           id="fornicealTendernessNeither"
-          name="fornicealTenderness"
+          name="fornicealTenderness[]"
           value="neither"
         />
         <label class="form-check-label" for="fornicealTendernessNeither"
@@ -648,7 +648,7 @@
           class="form-check-input"
           type="checkbox"
           id="fornicealMassRight"
-          name="fornicealMass"
+          name="fornicealMass[]"
           value="right"
         />
         <label class="form-check-label" for="fornicealMassRight"
@@ -660,7 +660,7 @@
           class="form-check-input"
           type="checkbox"
           id="fornicealMassLeft"
-          name="fornicealMass"
+          name="fornicealMass[]"
           value="left"
         />
         <label class="form-check-label" for="fornicealMassLeft"
@@ -672,7 +672,7 @@
           class="form-check-input"
           type="checkbox"
           id="fornicealMassNeither"
-          name="fornicealMass"
+          name="fornicealMass[]"
           value="neither"
         />
         <label class="form-check-label" for="fornicealMassNeither"
