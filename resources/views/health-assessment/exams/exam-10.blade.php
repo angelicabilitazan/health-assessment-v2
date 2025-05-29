@@ -83,7 +83,7 @@
           class="form-check-input"
           type="checkbox"
           id="shoulderPainRight"
-          name="shoulderPain"
+          name="shoulderPain[]"
           value="right"
         />
         <label class="form-check-label" for="shoulderPainRight"
@@ -95,7 +95,7 @@
           class="form-check-input"
           type="checkbox"
           id="shoulderPainLeft"
-          name="shoulderPain"
+          name="shoulderPain[]"
           value="left"
         />
         <label class="form-check-label" for="shoulderPainLeft"
@@ -107,7 +107,7 @@
           class="form-check-input"
           type="checkbox"
           id="shoulderPainNeither"
-          name="shoulderPain"
+          name="shoulderPain[]"
           value="neither"
         />
         <label class="form-check-label" for="shoulderPainNeither"
@@ -122,7 +122,7 @@
           class="form-check-input"
           type="checkbox"
           id="hipPainRight"
-          name="hipPain"
+          name="hipPain[]"
           value="right"
         />
         <label class="form-check-label" for="hipPainRight">Right</label>
@@ -132,7 +132,7 @@
           class="form-check-input"
           type="checkbox"
           id="hipPainLeft"
-          name="hipPain"
+          name="hipPain[]"
           value="left"
         />
         <label class="form-check-label" for="hipPainLeft">Left</label>
@@ -142,7 +142,7 @@
           class="form-check-input"
           type="checkbox"
           id="hipPainNeither"
-          name="hipPain"
+          name="hipPain[]"
           value="neither"
         />
         <label class="form-check-label" for="hipPainNeither"
@@ -160,7 +160,7 @@
           class="form-check-input"
           type="checkbox"
           id="elbowPainRight"
-          name="elbowPain"
+          name="elbowPain[]"
           value="right"
         />
         <label class="form-check-label" for="elbowPainRight"
@@ -172,7 +172,7 @@
           class="form-check-input"
           type="checkbox"
           id="elbowPainLeft"
-          name="elbowPain"
+          name="elbowPain[]"
           value="left"
         />
         <label class="form-check-label" for="elbowPainLeft">Left</label>
@@ -182,7 +182,7 @@
           class="form-check-input"
           type="checkbox"
           id="elbowPainNeither"
-          name="elbowPain"
+          name="elbowPain[]"
           value="neither"
         />
         <label class="form-check-label" for="elbowPainNeither"
@@ -197,7 +197,7 @@
           class="form-check-input"
           type="checkbox"
           id="kneePainRight"
-          name="kneePain"
+          name="kneePain[]"
           value="right"
         />
         <label class="form-check-label" for="kneePainRight"
@@ -209,7 +209,7 @@
           class="form-check-input"
           type="checkbox"
           id="kneePainLeft"
-          name="kneePain"
+          name="kneePain[]"
           value="left"
         />
         <label class="form-check-label" for="kneePainLeft">Left</label>
@@ -219,7 +219,7 @@
           class="form-check-input"
           type="checkbox"
           id="kneePainNeither"
-          name="kneePain"
+          name="kneePain[]"
           value="neither"
         />
         <label class="form-check-label" for="kneePainNeither"
@@ -237,7 +237,7 @@
           class="form-check-input"
           type="checkbox"
           id="wristPainRight"
-          name="wristPain"
+          name="wristPain[]"
           value="right"
         />
         <label class="form-check-label" for="wristPainRight"
@@ -249,7 +249,7 @@
           class="form-check-input"
           type="checkbox"
           id="wristPainLeft"
-          name="wristPain"
+          name="wristPain[]"
           value="left"
         />
         <label class="form-check-label" for="wristPainLeft">Left</label>
@@ -259,7 +259,7 @@
           class="form-check-input"
           type="checkbox"
           id="wristPainNeither"
-          name="wristPain"
+          name="wristPain[]"
           value="neither"
         />
         <label class="form-check-label" for="wristPainNeither"
@@ -274,7 +274,7 @@
           class="form-check-input"
           type="checkbox"
           id="anklePainRight"
-          name="anklePain"
+          name="anklePain[]"
           value="right"
         />
         <label class="form-check-label" for="anklePainRight"
@@ -286,7 +286,7 @@
           class="form-check-input"
           type="checkbox"
           id="anklePainLeft"
-          name="anklePain"
+          name="anklePain[]"
           value="left"
         />
         <label class="form-check-label" for="anklePainLeft">Left</label>
@@ -296,7 +296,7 @@
           class="form-check-input"
           type="checkbox"
           id="anklePainNeither"
-          name="anklePain"
+          name="anklePain[]"
           value="neither"
         />
         <label class="form-check-label" for="anklePainNeither"
@@ -314,7 +314,7 @@
           class="form-check-input"
           type="checkbox"
           id="handPainRight"
-          name="handPain"
+          name="handPain[]"
           value="right"
         />
         <label class="form-check-label" for="handPainRight"
@@ -326,7 +326,7 @@
           class="form-check-input"
           type="checkbox"
           id="handPainLeft"
-          name="handPain"
+          name="handPain[]"
           value="left"
         />
         <label class="form-check-label" for="handPainLeft">Left</label>
@@ -336,7 +336,7 @@
           class="form-check-input"
           type="checkbox"
           id="handPainNeither"
-          name="handPain"
+          name="handPain[]"
           value="neither"
         />
         <label class="form-check-label" for="handPainNeither"
@@ -351,7 +351,7 @@
           class="form-check-input"
           type="checkbox"
           id="footPainRight"
-          name="footPain"
+          name="footPain[]"
           value="right"
         />
         <label class="form-check-label" for="footPainRight"
@@ -363,7 +363,7 @@
           class="form-check-input"
           type="checkbox"
           id="footPainLeft"
-          name="footPain"
+          name="footPain[]"
           value="left"
         />
         <label class="form-check-label" for="footPainLeft">Left</label>
@@ -373,7 +373,7 @@
           class="form-check-input"
           type="checkbox"
           id="footPainNeither"
-          name="footPain"
+          name="footPain[]"
           value="neither"
         />
         <label class="form-check-label" for="footPainNeither"
@@ -391,7 +391,7 @@
           class="form-check-input"
           type="checkbox"
           id="fingerPainRight"
-          name="fingerPain"
+          name="fingerPain[]"
           value="right"
         />
         <label class="form-check-label" for="fingerPainRight"
@@ -403,7 +403,7 @@
           class="form-check-input"
           type="checkbox"
           id="fingerPainLeft"
-          name="fingerPain"
+          name="fingerPain[]"
           value="left"
         />
         <label class="form-check-label" for="fingerPainLeft"
@@ -415,7 +415,7 @@
           class="form-check-input"
           type="checkbox"
           id="fingerPainNeither"
-          name="fingerPain"
+          name="fingerPain[]"
           value="neither"
         />
         <label class="form-check-label" for="fingerPainNeither"
@@ -430,7 +430,7 @@
           class="form-check-input"
           type="checkbox"
           id="toePainRight"
-          name="toePain"
+          name="toePain[]"
           value="right"
         />
         <label class="form-check-label" for="toePainRight">Right</label>
@@ -440,7 +440,7 @@
           class="form-check-input"
           type="checkbox"
           id="toePainLeft"
-          name="toePain"
+          name="toePain[]"
           value="left"
         />
         <label class="form-check-label" for="toePainLeft">Left</label>
@@ -450,7 +450,7 @@
           class="form-check-input"
           type="checkbox"
           id="toePainNeither"
-          name="toePain"
+          name="toePain[]"
           value="neither"
         />
         <label class="form-check-label" for="toePainNeither"

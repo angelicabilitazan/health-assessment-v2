@@ -307,8 +307,8 @@
               <input
                 class="form-check-input"
                 type="checkbox"
-                name="loin_tenderness"
-                id="loin_tenderness_right"
+                
+                name="loin_tenderness_right"
                 value="right"
               />
               <label
@@ -321,8 +321,8 @@
               <input
                 class="form-check-input"
                 type="checkbox"
-                name="loin_tenderness"
-                id="loin_tenderness_left"
+                
+                name="loin_tenderness_left"
                 value="left"
               />
               <label class="form-check-label" for="loin_tenderness_left"
@@ -333,8 +333,8 @@
               <input
                 class="form-check-input"
                 type="checkbox"
-                name="loin_tenderness"
-                id="loin_tenderness_neither"
+                
+                name="loin_tenderness_neither"
                 value="neither"
               />
               <label

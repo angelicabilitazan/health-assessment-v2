@@ -11,7 +11,7 @@
           class="form-check-input"
           type="checkbox"
           id="breastLumpRight"
-          name="breastLump"
+          name="breastLump[]"
           value="right"
         />
         <label class="form-check-label" for="breastLumpRight"
@@ -23,7 +23,7 @@
           class="form-check-input"
           type="checkbox"
           id="breastLumpLeft"
-          name="breastLump"
+          name="breastLump[]"
           value="left"
         />
         <label class="form-check-label" for="breastLumpLeft"
@@ -35,7 +35,7 @@
           class="form-check-input"
           type="checkbox"
           id="breastLumpNeither"
-          name="breastLump"
+          name="breastLump[]"
           value="neither"
         />
         <label class="form-check-label" for="breastLumpNeither"
@@ -50,7 +50,7 @@
           class="form-check-input"
           type="checkbox"
           id="breastPainRight"
-          name="breastPain"
+          name="breastPain[]"
           value="right"
         />
         <label class="form-check-label" for="breastPainRight"
@@ -62,7 +62,7 @@
           class="form-check-input"
           type="checkbox"
           id="breastPainLeft"
-          name="breastPain"
+          name="breastPain[]"
           value="left"
         />
         <label class="form-check-label" for="breastPainLeft"
@@ -74,7 +74,7 @@
           class="form-check-input"
           type="checkbox"
           id="breastPainNeither"
-          name="breastPain"
+          name="breastPain[]"
           value="neither"
         />
         <label class="form-check-label" for="breastPainNeither"
@@ -89,7 +89,7 @@
           class="form-check-input"
           type="checkbox"
           id="breastSwellingRight"
-          name="breastSwelling"
+          name="breastSwelling[]"
           value="right"
         />
         <label class="form-check-label" for="breastSwellingRight"
@@ -101,7 +101,7 @@
           class="form-check-input"
           type="checkbox"
           id="breastSwellingLeft"
-          name="breastSwelling"
+          name="breastSwelling[]"
           value="left"
         />
         <label class="form-check-label" for="breastSwellingLeft"
@@ -113,7 +113,7 @@
           class="form-check-input"
           type="checkbox"
           id="breastSwellingNeither"
-          name="breastSwelling"
+          name="breastSwelling[]"
           value="neither"
         />
         <label class="form-check-label" for="breastSwellingNeither"
@@ -131,7 +131,7 @@
           class="form-check-input"
           type="checkbox"
           id="nippleDischargeRight"
-          name="nippleDischarge"
+          name="nipple_discharge_sides[]"
           value="right"
         />
         <label class="form-check-label" for="nippleDischargeRight"
@@ -143,7 +143,7 @@
           class="form-check-input"
           type="checkbox"
           id="nippleDischargeLeft"
-          name="nippleDischarge"
+          name="nipple_discharge_sides[]"
           value="left"
         />
         <label class="form-check-label" for="nippleDischargeLeft"
@@ -155,7 +155,7 @@
           class="form-check-input"
           type="checkbox"
           id="nippleDischargeNeither"
-          name="nippleDischarge"
+          name="nipple_discharge_sides[]"
           value="neither"
         />
         <label class="form-check-label" for="nippleDischargeNeither"
@@ -170,7 +170,7 @@
           class="form-check-input"
           type="checkbox"
           id="bleedingFromNippleRight"
-          name="bleedingFromNipple"
+          name="bleedingFromNipple[]"
           value="right"
         />
         <label class="form-check-label" for="bleedingFromNippleRight"
@@ -182,7 +182,7 @@
           class="form-check-input"
           type="checkbox"
           id="bleedingFromNippleLeft"
-          name="bleedingFromNipple"
+          name="bleedingFromNipple[]"
           value="left"
         />
         <label class="form-check-label" for="bleedingFromNippleLeft"
@@ -194,7 +194,7 @@
           class="form-check-input"
           type="checkbox"
           id="bleedingFromNippleNeither"
-          name="bleedingFromNipple"
+          name="bleedingFromNipple[]"
           value="neither"
         />
         <label class="form-check-label" for="bleedingFromNippleNeither"
@@ -255,7 +255,7 @@
           class="form-check-input"
           type="checkbox"
           id="redness2Right"
-          name="redness"
+          name="redness_sides[]"
           value="right"
         />
         <label class="form-check-label" for="redness2Right"
@@ -267,7 +267,7 @@
           class="form-check-input"
           type="checkbox"
           id="redness2Left"
-          name="redness"
+          name="redness_sides[]"
           value="left"
         />
         <label class="form-check-label" for="redness2Left">Left</label>
@@ -277,7 +277,7 @@
           class="form-check-input"
           type="checkbox"
           id="redness3Neither"
-          name="redness"
+          name="redness_sides[]"
           value="neither"
         />
         <label class="form-check-label" for="redness3Neither"
@@ -292,7 +292,7 @@
           class="form-check-input"
           type="checkbox"
           id="swellingRight"
-          name="swelling"
+          name="swelling_sides[]"
           value="right"
         />
         <label class="form-check-label" for="swellingRight"
@@ -304,7 +304,7 @@
           class="form-check-input"
           type="checkbox"
           id="swellingLeft"
-          name="swelling"
+          name="swelling_sides[]"
           value="left"
         />
         <label class="form-check-label" for="swellingLeft">Left</label>
@@ -314,7 +314,7 @@
           class="form-check-input"
           type="checkbox"
           id="swellingNeither"
-          name="swelling"
+          name="swelling_sides[]"
           value="neither"
         />
         <label class="form-check-label" for="swellingNeither"
@@ -329,7 +329,7 @@
           class="form-check-input"
           type="checkbox"
           id="heatRight"
-          name="heat"
+          name="heat_sides[]"
           value="right"
         />
         <label class="form-check-label" for="heatRight">Right</label>
@@ -339,7 +339,7 @@
           class="form-check-input"
           type="checkbox"
           id="heatLeft"
-          name="heat"
+          name="heat_sides[]"
           value="left"
         />
         <label class="form-check-label" for="heatLeft">Left</label>
@@ -349,7 +349,7 @@
           class="form-check-input"
           type="checkbox"
           id="heatNeither"
-          name="heat"
+          name="heat_sides[]"
           value="neither"
         />
         <label class="form-check-label" for="heatNeither"
@@ -367,7 +367,7 @@
           class="form-check-input"
           type="checkbox"
           id="dischargeRight"
-          name="discharge"
+          name="nippleDischarge[]"
           value="right"
         />
         <label class="form-check-label" for="dischargeRight"
@@ -379,7 +379,7 @@
           class="form-check-input"
           type="checkbox"
           id="dischargeLeft"
-          name="discharge"
+          name="nippleDischarge[]"
           value="left"
         />
         <label class="form-check-label" for="dischargeLeft">Left</label>
@@ -389,7 +389,7 @@
           class="form-check-input"
           type="checkbox"
           id="dischargeNeither"
-          name="discharge"
+          name="nippleDischarge[]"
           value="neither"
         />
         <label class="form-check-label" for="dischargeNeither"
@@ -404,7 +404,7 @@
           class="form-check-input"
           type="checkbox"
           id="bloodRight"
-          name="blood"
+          name="bloodNipple[]"
           value="right"
         />
         <label class="form-check-label" for="bloodRight">Right</label>
@@ -414,7 +414,7 @@
           class="form-check-input"
           type="checkbox"
           id="bloodLeft"
-          name="blood"
+          name="bloodNipple[]"
           value="left"
         />
         <label class="form-check-label" for="bloodLeft">Left</label>
@@ -424,7 +424,7 @@
           class="form-check-input"
           type="checkbox"
           id="bloodNeither"
-          name="blood"
+          name="bloodNipple[]"
           value="neither"
         />
         <label class="form-check-label" for="bloodNeither"
@@ -439,7 +439,7 @@
           class="form-check-input"
           type="checkbox"
           id="tetheringRight"
-          name="tethering"
+          name="tethering[]"
           value="right"
         />
         <label class="form-check-label" for="tetheringRight"
@@ -451,7 +451,7 @@
           class="form-check-input"
           type="checkbox"
           id="tetheringLeft"
-          name="tethering"
+          name="tethering[]"
           value="left"
         />
         <label class="form-check-label" for="tetheringLeft">Left</label>
@@ -461,7 +461,7 @@
           class="form-check-input"
           type="checkbox"
           id="tetheringNeither"
-          name="tethering"
+          name="tethering[]"
           value="neither"
         />
         <label class="form-check-label" for="tetheringNeither"
@@ -479,7 +479,7 @@
           class="form-check-input"
           type="checkbox"
           id="nippleInversionRight"
-          name="nippleInversion"
+          name="nippleInversion[]"
           value="right"
         />
         <label class="form-check-label" for="nippleInversionRight"
@@ -491,7 +491,7 @@
           class="form-check-input"
           type="checkbox"
           id="nippleInversionLeft"
-          name="nippleInversion"
+          name="nippleInversion[]"
           value="left"
         />
         <label class="form-check-label" for="nippleInversionLeft"
@@ -503,7 +503,7 @@
           class="form-check-input"
           type="checkbox"
           id="nippleInversionNeither"
-          name="nippleInversion"
+          name="nippleInversion[]"
           value="neither"
         />
         <label class="form-check-label" for="nippleInversionNeither"
@@ -518,7 +518,7 @@
           class="form-check-input"
           type="checkbox"
           id="peauDOrangeRight"
-          name="peauDOrange"
+          name="peauDOrange[]"
           value="right"
         />
         <label class="form-check-label" for="peauDOrangeRight"
@@ -530,7 +530,7 @@
           class="form-check-input"
           type="checkbox"
           id="peauDOrangeLeft"
-          name="peauDOrange"
+          name="peauDOrange[]"
           value="left"
         />
         <label class="form-check-label" for="peauDOrangeLeft"
@@ -542,7 +542,7 @@
           class="form-check-input"
           type="checkbox"
           id="peauDOrangeNeither"
-          name="peauDOrange"
+          name="peauDOrange[]"
           value="neither"
         />
         <label class="form-check-label" for="peauDOrangeNeither"
@@ -557,7 +557,7 @@
           class="form-check-input"
           type="checkbox"
           id="axillaryNodesRight"
-          name="axillaryNodes"
+          name="axillaryNodes[]"
           value="right"
         />
         <label class="form-check-label" for="axillaryNodesRight"
@@ -569,7 +569,7 @@
           class="form-check-input"
           type="checkbox"
           id="axillaryNodesLeft"
-          name="axillaryNodes"
+          name="axillaryNodes[]"
           value="left"
         />
         <label class="form-check-label" for="axillaryNodesLeft"
@@ -581,7 +581,7 @@
           class="form-check-input"
           type="checkbox"
           id="axillaryNodesNeither"
-          name="axillaryNodes"
+          name="axillaryNodes[]"
           value="neither"
         />
         <label class="form-check-label" for="axillaryNodesNeither"

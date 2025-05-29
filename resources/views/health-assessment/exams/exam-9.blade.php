@@ -1,4 +1,3 @@
-
 <!--History 8-->
 <div class="form-section step-section" id="step10">
   <h4>History:</h4>
@@ -128,6 +127,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionFace"
               value="face"
             />
@@ -139,6 +139,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionScalp"
               value="scalp"
             />
@@ -150,6 +151,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionNeck"
               value="neck"
             />
@@ -161,6 +163,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionForehead"
               value="forehead"
             />
@@ -172,6 +175,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionCheek"
               value="cheek"
             />
@@ -183,6 +187,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionNose"
               value="nose"
             />
@@ -194,6 +199,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionChest"
               value="chest"
             />
@@ -207,6 +213,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionBack"
               value="back"
             />
@@ -218,6 +225,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionAbdomen"
               value="abdomen"
             />
@@ -229,6 +237,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionShoulder"
               value="shoulder"
             />
@@ -240,6 +249,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionArm"
               value="arm"
             />
@@ -251,6 +261,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionHand"
               value="hand"
             />
@@ -262,6 +273,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionLeg"
               value="leg"
             />
@@ -273,6 +285,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="distribution_areas[]"
               id="distributionFoot"
               value="foot"
             />
