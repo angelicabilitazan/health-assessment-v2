@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('health-assessment.index');
 });
+
+Route::get('/assessment','MainController@displayAssessment')->name('assess');
