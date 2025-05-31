@@ -16,6 +16,97 @@ class MainController extends Controller
         return view('pages.listahan', compact('mgapasyente'));
     }
 
+    public function editAngPasyente($id){
+        $mgapasyente = DB::table('patients')
+                        ->where('id', $id)->get();
+        $detalye1 = DB::table('patient_histories_1')
+                        ->where('patient_id', $id)->get();
+        $detalye2 = DB::table('patient_histories_2')
+                        ->where('patient_id', $id)->get();
+        $detalye3 = DB::table('patient_histories_3')
+                        ->where('patient_id', $id)->get();
+        $detalye4 = DB::table('patient_histories_4')
+                        ->where('patient_id', $id)->get();
+        $detalye5 = DB::table('patient_histories_5')
+                        ->where('patient_id', $id)->get();
+        $detalye6 = DB::table('patient_histories_6')
+                        ->where('patient_id', $id)->get();
+        $detalye7 = DB::table('patient_histories_7')
+                        ->where('patient_id', $id)->get();
+        $detalye8 = DB::table('patient_histories_8')
+                        ->where('patient_id', $id)->get();
+        $detalye9 = DB::table('patient_histories_9')
+                        ->where('patient_id', $id)->get();
+        $detalye10 = DB::table('patient_histories_10')
+                        ->where('patient_id', $id)->get();
+        $detalye11 = DB::table('patient_histories_11')
+                        ->where('patient_id', $id)->get();
+        $detalye12 = DB::table('patient_exam_1')
+                        ->where('patient_id', $id)->get();
+        $detalye13 = DB::table('patient_exam_2')
+                        ->where('patient_id', $id)->get();
+        $detalye14 = DB::table('patient_exam_3')
+                        ->where('patient_id', $id)->get();
+        $detalye15 = DB::table('patient_exam_4')
+                        ->where('patient_id', $id)->get();
+        $detalye16 = DB::table('patient_exam_5')
+                        ->where('patient_id', $id)->get();
+        $detalye17 = DB::table('patient_exam_6')
+                        ->where('patient_id', $id)->get();
+        $detalye18 = DB::table('patient_exam_7')
+                        ->where('patient_id', $id)->get();
+        $detalye19 = DB::table('patient_exam_8')
+                        ->where('patient_id', $id)->get();
+        $detalye20 = DB::table('patient_exam_9')
+                        ->where('patient_id', $id)->get();
+        $detalye21 = DB::table('patient_exam_10')
+                        ->where('patient_id', $id)->get();
+        $detalye22 = DB::table('patient_exam_11')
+                        ->where('patient_id', $id)->get();
+        $detalye23 = DB::table('patient_exam_12')
+                        ->where('patient_id', $id)->get();
+        $detalye24 = DB::table('patient_exam_13')
+                        ->where('patient_id', $id)->get();
+        $detalye25 = DB::table('patient_exam_14')
+                        ->where('patient_id', $id)->get();
+        $detalye26 = DB::table('patient_exam_15')
+                        ->where('patient_id', $id)->get();
+        $detalye27 = DB::table('patient_exam_16')
+                        ->where('patient_id', $id)->get();
+                                       
+            dd($mgapasyente);
+        return view('health-assessment.edit-exams.main-exam', compact(
+            'mgapasyente',
+            'detalye1',
+            'detalye2',
+            'detalye3',
+            'detalye4',
+            'detalye5',
+            'detalye6',
+            'detalye7',
+            'detalye8',
+            'detalye9',
+            'detalye10',
+            'detalye11',
+            'detalye12',
+            'detalye13',
+            'detalye14',
+            'detalye15',
+            'detalye16',
+            'detalye17',
+            'detalye18',
+            'detalye19',
+            'detalye20',
+            'detalye21',
+            'detalye22',
+            'detalye23',
+            'detalye24',
+            'detalye25',
+            'detalye26',
+            'detalye27',
+        ));
+    }
+
     public function addData(Request $request){
 
     $pasyenteNgay = [
@@ -432,7 +523,7 @@ class MainController extends Controller
         'updated_at' => now(),
     ];
 
-    DB::table('')->insert($musculoskeletalHistoryData);
+    DB::table('patient_histories_9')->insert($musculoskeletalHistoryData);
 
     $musculoskeletalExaminationData = [
         'patient_id' => $patientId, 
@@ -552,11 +643,6 @@ class MainController extends Controller
     ];
 
     DB::table('patient_exam_12')->insert($mentalHealthHistoryData);
-if($success){
-        dd('yey');
-    }else{
-        dd('ney');
-    }
 
     $adlData = [
         'patient_id' => $patientId, 

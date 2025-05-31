@@ -19,9 +19,9 @@
             <td>{{ $pasyente->id }}</td>
             <td>{{ $pasyente->first_name }} {{ $pasyente->last_name }}</td>
             <td class="text-end">
-              <a class="btn btn-sm btn-primary">Edit</a>
-              <a class="btn btn-sm btn-danger">Delete</a>
+              <a href="{{ route('patingin', ['id' => $pasyente->id ])}}" class="btn btn-sm btn-primary">Edit</a>
               <a class="btn btn-sm btn-secondary">Download</a>
+              <a class="btn btn-sm btn-danger">Delete</a>
             </td>
           </tr>
         @endforeach
