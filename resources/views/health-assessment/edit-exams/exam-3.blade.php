@@ -15,6 +15,7 @@
             name="chestpain"
             id="chestpainYes"
             value="yes"
+            {{ $detalye2->chest_pain === 1 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="chestpainYes">Yes</label>
         </div>
@@ -27,6 +28,7 @@
             name="chestpain"
             id="chestpainNo"
             value="no"
+            {{ $detalye2->chest_pain === 0 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="chestpainNo">No</label>
         </div>
@@ -46,6 +48,7 @@
             name="dyspnoea"
             id="dyspnoeaYes"
             value="yes"
+            {{ $detalye2->dyspnoea === 1 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="dyspnoeaYes">Yes</label>
         </div>
@@ -58,6 +61,7 @@
             name="dyspnoea"
             id="dyspnoeaNo"
             value="no"
+            {{ $detalye2->dyspnoea === 0 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="dyspnoeaNo">No</label>
         </div>
@@ -75,6 +79,7 @@
             name="orthopnoea"
             id="orthopnoeaYes"
             value="yes"
+            {{ $detalye2->orthopnoea === 1 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="orthopnoeaYes"
             >Yes</label
@@ -89,6 +94,7 @@
             name="orthopnoea"
             id="orthopnoeaNo"
             value="no"
+            {{ $detalye2->orthopnoea === 0 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="orthopnoeaNo">No</label>
         </div>
@@ -108,6 +114,7 @@
             name="nocturnaldys"
             id="nocturnaldysYes"
             value="yes"
+            {{ $detalye2->nocturnal_dyspnoea === 1 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="nocturnaldysYes"
             >Yes</label
@@ -122,6 +129,7 @@
             name="nocturnaldys"
             id="nocturnaldysNo"
             value="no"
+            {{ $detalye2->nocturnal_dyspnoea === 0 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="nocturnaldysNo"
             >No</label
@@ -141,6 +149,7 @@
             name="swollenank"
             id="swollenankYes"
             value="yes"
+            {{ $detalye2->swollen_ankles === 1 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="swollenankYes"
             >Yes</label
@@ -155,6 +164,7 @@
             name="swollenank"
             id="swollenankNo"
             value="no"
+            {{ $detalye2->swollen_ankles === 0 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="swollenankNo">No</label>
         </div>
@@ -174,6 +184,7 @@
             name="palpitation"
             id="palpitationYes"
             value="yes"
+            {{ $detalye2->palpitations === 1 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="palpitationYes"
             >Yes</label
@@ -188,6 +199,7 @@
             name="palpitation"
             id="palpitationNo"
             value="no"
+            {{ $detalye2->palpitations === 0 ? 'checked' : '' }}
           />
           <label class="form-check-label" for="palpitationNo">No</label>
         </div>
@@ -205,6 +217,7 @@
             name="claudication"
             id="claudicationYes"
             value="yes"
+            {{ $detalye2->claudication === "yes" ? 'checked' : '' }}
           />
           <label class="form-check-label" for="claudicationYes"
             >Yes</label
@@ -217,6 +230,7 @@
             name="claudication"
             id="claudicationNo"
             value="no"
+            {{ $detalye2->claudication === 'no' ? 'checked' : '' }}
           />
           <label class="form-check-label" for="claudicationNo"
             >No</label
@@ -231,6 +245,7 @@
             name="claudication"
             id="claudicationBoth"
             value="both"
+            {{ $detalye2->claudication === 'both' ? 'checked' : '' }}
           />
           <label class="form-check-label" for="claudicationBoth"
             >Both</label
@@ -244,6 +259,7 @@
             name="claudication"
             id="claudicationneither"
             value="neither"
+            {{ $detalye2->claudication === 'neither' ? 'checked' : '' }}
           />
           <label class="form-check-label" for="claudicationNeither"
             >Neither</label

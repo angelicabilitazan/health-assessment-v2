@@ -1,15 +1,15 @@
 <div class="step-section active" id="step1">
-  <h4>Patient Details</h4>
+  <h4>Patient Details </h4>
   <hr />
   <div class="row">
     <div class="mb-3 col-6">
       <label for="fname" class="form-label">First Name</label>
       <input
         type="text"
+        value="{{ $mgapasyente->first_name }}"
         id="fname"
         name="firstName"
         class="form-control"
-        value="{{$item->first_name}}"
         required
       />
     </div>
@@ -18,6 +18,7 @@
       <label for="lname" class="form-label">Last Name</label>
       <input
         type="text"
+        value="{{ $mgapasyente->last_name }}"
         id="lname"
         name="lastName"
         class="form-control"
@@ -30,6 +31,7 @@
       <label for="pname" class="form-label">Preferred Name</label>
       <input
         type="text"
+        value="{{ $mgapasyente->preferred_name }}"
         id="pname"
         name="preferredName"
         class="form-control"
@@ -37,7 +39,7 @@
     </div>
     <div class="mb-3 col-6">
       <label for="dob" class="form-label">Date of Birth</label>
-      <input type="date" id="dob" name="dob" class="form-control" />
+      <input type="date" id="dob" name="dob" class="form-control" value="{{ $mgapasyente->dob }}"/>
     </div>
   </div>
   <div class="row">
@@ -47,6 +49,7 @@
       >
       <input
         type="text"
+        value="{{ $mgapasyente->admitted_location }}"
         id="alocation"
         name="alocation"
         class="form-control"
@@ -54,7 +57,7 @@
     </div>
     <div class="mb-3 col-6">
       <label for="doa" class="form-label">Admission Date</label>
-      <input type="date" id="doa" name="doa" class="form-control" />
+      <input type="date" id="doa" name="doa" class="form-control" value="{{ $mgapasyente->admission_date }}" />
     </div>
   </div>
   <div class="row">
@@ -66,6 +69,7 @@
       <label for="mednum" class="form-label">Medicare No.</label>
       <input
         type="text"
+         value="{{ $mgapasyente->medicare_no }}"
         id="mednum"
         name="mednum"
         class="form-control"
@@ -77,6 +81,7 @@
       >
       <input
         type="text"
+        value="{{ $mgapasyente->pension_no }}"
         id="pensionnum"
         name="pensionnum"
         class="form-control"
@@ -92,6 +97,7 @@
       <label for="kin-name" class="form-label">Next of Kin Name</label>
       <input
         type="text"
+        value="{{ $mgapasyente->kin_name }}"
         id="kin-name"
         name="kinName"
         class="form-control"
@@ -102,6 +108,7 @@
         <label for="kin-phone" class="form-label">Phone Number</label>
         <input
           type="tel"
+          value="{{ $mgapasyente->kin_phone }}"
           id="kin-phone"
           name="kinPhone"
           class="form-control"
@@ -113,6 +120,7 @@
         <label for="kin-work" class="form-label">Work Number</label>
         <input
           type="tel"
+          value="{{ $mgapasyente->kin_work }}"
           id="kin-work"
           name="kinWork"
           class="form-control"
@@ -124,6 +132,7 @@
         <label for="kin-mobile" class="form-label">Mobile Number</label>
         <input
           type="tel"
+          value="{{ $mgapasyente->kin_mobile }}"
           id="kin-mobile"
           name="kinMobile"
           class="form-control"
@@ -145,8 +154,9 @@
         class="form-check-input"
         type="checkbox"
         name="family-history-unknown"
-        value="1"
+        value="1" {{ $mgapasyente->family_history_unknown === 1 ? 'checked' : '' }}
         id="unknown-adopted"
+        
       />
       <label class="form-check-label" for="unknown-adopted"
         >Unknown (e.g Adopted)</label
@@ -159,6 +169,7 @@
         name="family-history-none"
         value="1"
         id="no-significant-fam-history"
+        {{ $mgapasyente->family_history_none === 1 ? 'checked' : '' }}
       />
       <label class="form-check-label" for="no-significant-fam-history"
         >No significant Family history</label
@@ -176,7 +187,7 @@
       class="form-control"
       name="allergy-history"
       rows="5"
-    ></textarea>
+    >{{ $mgapasyente->allergy_history }}</textarea>
   </div>
   <div>
     <label for="past-medical-history" class="form-label"
@@ -186,6 +197,6 @@
       class="form-control"
       name="past-medical-history"
       rows="5"
-    ></textarea>
+    >{{ $mgapasyente->past_medical_history }}</textarea>
   </div>
 </div>
